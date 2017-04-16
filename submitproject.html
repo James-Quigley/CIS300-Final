@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>ASU Computer Science Club :: Submit Project</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="header-title">ASU Computer Science Club</a>
+        <nav>
+            <a class="nav-item" href="meetings.html">Meetings</a>
+            <a class="nav-item" href="officers.html">Officers</a>
+            <a class="nav-item" href="join.html">Join</a>
+            <a class="nav-item" href="submitproject.html">Submit Idea</a>
+            <div class="dropdown">
+                <a class="nav-item" href="projects.html">Projects<i class="material-icons">arrow_drop_down</i></a>
+                <div class="dropdown-content">
+                    <a href="project1.html">USGP Website</a>
+                    <a href="project2.html">Printer Search</a>
+                    <a href="project3.html">Sorting Visualizer</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="wrapper">
+            <h1>Submit a Project Idea</h1>
+            <p>Every semester, the club as a whole, groups of members, or even individual members take on projects that help us learn, solve a problem, and/or benefit the community. We are always looking for more code to write, so if you have an idea, send it our way!</p>
+            <form method="post" action="">
+                <div class="row">
+                    <label for="name">Name*</label>
+                    <input type="text" name="name" required>
+                </div>
+                <div class="row">
+                    <label for="email">Email*</label>
+                    <input type="email" name="email" required>
+                </div>
+                <div class="row">
+                    <label for="phone">Phone</label>
+                    <input type="tel" name="phone">
+                </div>
+                <div class="row">
+                    <label for="comments">Project Idea*</label>
+                    <textarea name="comments" id="comments" cols="30" rows="10" required></textarea>
+                </div>
+                <div class="row"><input type="submit"></div>
+            </form>
+        </div>
+
+    </main>
+    <footer>
+        <span>&copy; 2017. Created by <a href="mailto:James.A.Quigley@asu.edu">James Quigley</a></span>
+    </footer>
+</body>
+
+</html>

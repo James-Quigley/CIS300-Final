@@ -67,7 +67,7 @@ nav {
 }
 
 header{
-        background-color: #743F43;
+        background-color: #8C1D40;
         top: 0;
         box-shadow: 0 1px 2px;
         width: 100%;
@@ -80,7 +80,7 @@ header{
     height: 100%;
     width: 100px;
     text-decoration: none;
-    color: #A68732;
+    color: #FFC627;
     font-size: 1.5em;
     margin-left: 15px;
 }
@@ -94,6 +94,7 @@ header{
     display: inline-block;
     position: absolute;
     padding-left: 15px;
+	font-weight: bold;
 }
 
 .dropdown {
@@ -104,14 +105,14 @@ header{
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #743F43;
+    background-color: #8C1D40;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 
 .dropdown-content a {
-    color: #A68732;
+    color: #FFC627;
     padding: 4px 16px;
     text-decoration: none;
     display: block;
@@ -151,7 +152,7 @@ h1 {
 }
 
 .tile {
-    background-color: #A68732;
+    background-color: #FFC627;
     width: 200px;
     height: 200px;
     display: inline-grid;
@@ -181,7 +182,7 @@ main a {
 footer {
     bottom: 0;
     text-align: center;
-    background-color: #743F43;
+    background-color: #8C1D40;
     width: 100%;
     line-height: 50px;
     padding: 10px 0;
@@ -190,4 +191,67 @@ footer {
 
 footer a {
     color: black;
+}
+
+table {
+	margin: 50px auto;
+	width: 100%;
+	display: table;
+}
+
+th {
+	font-weight: bold;
+	border-bottom: 1px solid #d0d0d0;
+}
+
+tbody tr:hover{
+	background-color: #f2f2f2;
+}
+
+td, th {
+	padding: 15px 5px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 2px;
+}
+
+form {
+	margin-top: 50px;
+}
+
+.row {
+	display: block;
+	margin: 0 auto 20px;
+	width: 100%;
+	text-align: left;
+}
+
+label {
+	font-size: .8rem;
+	color: #9E9E9E;
+}
+
+input {
+	background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #9e9e9e;
+	height: 3rem;
+	width: 100%;
+	font-size: 1rem;
+}
+
+input[type="submit"] {
+	border: 0;
+	background-color: #FFC627;
+	width: 150px;
+	box-shadow: 1px 1px 5px black;
+}
+
+textarea {
+	height: 3rem;
+	width: 100%;
+	background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #9e9e9e;
 }

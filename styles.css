@@ -1,0 +1,193 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* My styles start here! */
+html {
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+nav {
+    display: inline;
+    position: absolute;
+    right: 0;
+    margin-right: 50px;
+}
+
+header{
+        background-color: #743F43;
+        top: 0;
+        box-shadow: 0 1px 2px;
+        width: 100%;
+        height: 56px;
+        line-height: 56px;
+}
+
+.nav-item {
+    display: inline;
+    height: 100%;
+    width: 100px;
+    text-decoration: none;
+    color: #A68732;
+    font-size: 1.5em;
+    margin-left: 15px;
+}
+
+.header-title {
+    text-align: left;
+    font-size: 2em;
+    font-family: Courier;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    position: absolute;
+    padding-left: 15px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #743F43;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #A68732;
+    padding: 4px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #E5E5E5}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.banner {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+    background-color: black;
+}
+
+.banner-image {
+    max-height: 800px;
+}
+
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+main {
+    text-align: center;
+    flex: 1 0 auto;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 50px auto;
+}
+
+.tile {
+    background-color: #A68732;
+    width: 200px;
+    height: 200px;
+    display: inline-grid;
+    margin: 50px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.tile-title {
+    margin-top: 15px;
+    padding-bottom: 10px;
+    color: black;
+    font-size: 1.5em;
+    height: 20px;
+    border-bottom: 1px solid black;
+}
+
+.tile-text {
+    color: black;
+    margin: 0 auto;
+    max-width: 160px;
+}
+
+main a {
+    text-decoration: none;
+}
+
+footer {
+    bottom: 0;
+    text-align: center;
+    background-color: #743F43;
+    width: 100%;
+    line-height: 50px;
+    padding: 10px 0;
+    min-height: 50px;
+}
+
+footer a {
+    color: black;
+}

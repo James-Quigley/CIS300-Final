@@ -312,3 +312,42 @@ section h2 {
 	line-height: 1.5rem;
 	padding: 10px;
 }
+
+.officer {
+	display: inline-grid;
+	width: 400px;
+	margin: 10px;
+}
+
+.officer img {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.officer h2 {
+	font-size: 2em;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.officer span {
+	margin-top: 10px;
+	font-style: italic;
+}
+
+ol {
+	text-align: center;
+	margin-top: 100px;
+}
+
+ol li {
+	height: 200px;
+}
+
+ol li img {
+	margin: 20px;
+}
+
+ol li p {
+	margin: 20px;
+}
